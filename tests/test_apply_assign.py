@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
 import numpy as np
-import apply_assign
+from src import apply_assign
 
 # --- Re-create the dataset ---
 df_base = pd.DataFrame({
